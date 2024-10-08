@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+   background-color: rgb(247, 230, 247);
+}
+
+h1 {
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   padding: 16px 0;
+}
+
+.form-contato{
+   display: flex;
+}
+
+.container {
+   width: 100%;
+   max-width: 800px;
+   min-width: 640px;
+   background-color: rgb(247, 230, 247);
+   margin: 0 auto;
+   padding: 100px;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin: 44px 0;
+   border-radius: 8px;
+   box-shadow: 0 0 16px rgba(49, 31, 43, 0.15);
+   overflow: hidden;
+}
+
+thead tr th{
+   background-color: purple;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: left;
+}
+
+form {
+   display: flex;
+   justify-content: space-between;
+   align-items: end;
+   margin: 24px 0;
+  /* Mantém a altura fixa */
+}
+
+.div-input {
+   /* display: flex;*/
+   flex: 1;
+   flex-direction: column;
+   justify-content: center; /* Centraliza o conteúdo dentro da div */
+}
+
+input {
+   margin-top: 12px;
+   height: 32px;
+   border-radius: 4px;
+   background-color: rgb(237, 226, 248);
+   border: 1px solid purple;
+}
+
+form button{
+   padding: 12px;
+   font-weight: 800;
+   background-color: purple;
+   color: aliceblue;
+   border: none;
+   border-radius: 4px;
+}
+
+table td, table th{
+   padding: 12px ;
+   text-align: left;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+table tbody tr{
+   border-bottom: 1px solid rgb(163, 136, 172);
+}
+
+table tbody tr:nth-of-type(even) {
+   background-color:  rgb(238, 214, 238);
+}
+
+table tfoot tr{
+   border-bottom: 2px solid purple;
+}
+.footer {
+   font-size: 12px;
+   font-weight: 700;
+   border: none;
+}
+
+
